@@ -1,0 +1,12 @@
+Source: ros-verystable-py-trees-ros
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, python3-setuptools, ros-verystable-geometry-msgs, ros-verystable-py-trees, ros-verystable-py-trees-ros-interfaces, ros-verystable-rcl-interfaces, ros-verystable-rclpy, ros-verystable-ros2topic, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-tf2-ros, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: https://py-trees-ros.readthedocs.io/en/release-1.2.x/
+Standards-Version: 3.9.2
+
+Package: ros-verystable-py-trees-ros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-verystable-geometry-msgs, ros-verystable-py-trees, ros-verystable-py-trees-ros-interfaces, ros-verystable-rcl-interfaces, ros-verystable-rclpy, ros-verystable-ros2topic, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-tf2-ros, ros-verystable-unique-identifier-msgs, ros-verystable-ros-workspace
+Description: ROS2 extensions and behaviours for py_trees.
