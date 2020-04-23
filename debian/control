@@ -1,0 +1,12 @@
+Source: ros-eloquent-py-trees-ros
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, python3-setuptools, ros-eloquent-geometry-msgs, ros-eloquent-py-trees, ros-eloquent-py-trees-ros-interfaces, ros-eloquent-rcl-interfaces, ros-eloquent-rclpy, ros-eloquent-ros2topic, ros-eloquent-sensor-msgs, ros-eloquent-std-msgs, ros-eloquent-tf2-ros, ros-eloquent-unique-identifier-msgs, ros-eloquent-ros-workspace, python3-all, python3-setuptools
+Homepage: https://py-trees-ros.readthedocs.io/en/release-1.2.x/
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-py-trees-ros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-eloquent-geometry-msgs, ros-eloquent-py-trees, ros-eloquent-py-trees-ros-interfaces, ros-eloquent-rcl-interfaces, ros-eloquent-rclpy, ros-eloquent-ros2topic, ros-eloquent-sensor-msgs, ros-eloquent-std-msgs, ros-eloquent-tf2-ros, ros-eloquent-unique-identifier-msgs, ros-eloquent-ros-workspace
+Description: ROS2 extensions and behaviours for py_trees.
